@@ -1,2 +1,3 @@
-# MNIST-GAN
- Simple Implementation of a GAN for the MNIST Dataset using PyTorch
+## Generative Adversial Networks
+
+Generative Adversarial Networks, or GANs for short, are an approach to generative modeling using deep learning methods, such as convolutional neural networks. A bit complex definition I feel but what we do simply I believe is try to generated fake samples that seem real but are not. We control the realness using a discriminator which will take this fake image and classify it as fake or real. As we go on the generator tries to update it's weights so that it can fool the discriminator. So when it becomes exactly similar to the real image the discriminator would have a probablity of 50% of classifying it as fake.
