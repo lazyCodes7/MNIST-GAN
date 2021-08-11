@@ -10,3 +10,8 @@ Google has pretty good explaination on GANs and it can be viewed [here](https://
 
 ## Results
 It gives pretty satisfactory results on chosing a random noise after using a simple GAN. Using a Conv layer might improve the performance more so planning to update once I learn about them too:)
+
+## Outputs
+This is the output I got after passing some random noise(uniformally distributed) to a trained Generative Network! Seems real cool right?
+
+<img src="images/output.png">
